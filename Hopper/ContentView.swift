@@ -1,11 +1,5 @@
 import SwiftUI
 
-struct Animal: Identifiable {
-    let id: Int
-    let name: String
-    let image: String
-}
-
 struct AnimalCardView: View {
     var animal: Animal
     var onRemove: () -> Void  // Callback when card is removed
